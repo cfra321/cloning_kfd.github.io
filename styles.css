@@ -1,0 +1,135 @@
+body {
+    background-image: url(/img/bacground\ web.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 1rem;
+
+}
+div {
+    display: block;
+}
+.page-home {
+    height: 360px;
+    margin: 5% auto 0 auto;
+}
+
+h2.title{
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    margin: 0px 0px 8px;
+}
+
+.h2, h2{
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px)
+ {
+    .container {max-width: 1140px;}
+
+}
+
+@media (min-width: 992px)
+{
+    .container {max-width: 960px;}
+}
+
+@media (min-width: 768px)
+{
+    .container {max-width: 720px;}
+    /* .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    } */
+    .col-md-2{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 16.666667%;
+        max-width: 16.666667%;;
+    }
+    
+}
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-2, .col-6, .col-sm-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.menu{
+    color: #000;
+    text-align: center;
+    background: rgba(255,255,255,0.9);
+    -webkit-box-shadow: 2px 2px 2px rgb(0 0 0 / 10%), -1px 0 2px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 10%), -1px 0 2px rgb(0 0 0 / 5%);
+    padding: 5px;
+}
+
+.menu {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+span.menu-title {
+    display: block;
+    position: relative;
+    top: -0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
